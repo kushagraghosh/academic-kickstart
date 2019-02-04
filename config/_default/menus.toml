@@ -9,29 +9,64 @@
   weight = 1
 
 [[main]]
-  name = "Publications"
-  url = "#publications_featured"
+  name = "People"
+  url = "/people/"
   weight = 2
 
 [[main]]
-  name = "Posts"
-  url = "#posts"
-  weight = 3
-
-[[main]]
   name = "Projects"
-  url = "#projects"
+  url = "/projects/"
+  weight = 3
+  identifier = "projectsmenu"
+  
+[[main]]
+  name = "Building Energy Analytics"
+  url = "/projects/building-energy-analytics/"
   weight = 4
-
+  parent = "projectsmenu"
+  
 [[main]]
-  name = "Tutorials"
-  url = "/tutorial/"
+  name = "Sensor Technology"
+  url = "/projects/sensor-technology/"
   weight = 5
+  parent = "projectsmenu"
 
 [[main]]
-  name = "Contact"
-  url = "#contact"
+  name = "Smart Home Activity and Health Analytics"
+  url = "/projects/smart-home-activity-and-health-analytics/"
   weight = 6
+  parent = "projectsmenu"
+  
+[[main]]
+  name = "Sensor Technology Box"
+  url = "/projects/sensor-technology-box/"
+  weight = 7
+  parent = "projectsmenu"
+
+[[main]]
+  name = "Publications"
+  url = "/publications/"
+  weight = 8
+
+[[main]]
+  name = "Software & Data"
+  url = "/softwaredata/"
+  weight = 9
+
+[[main]]
+  name = "Courses"
+  url = "/courses/"
+  weight = 10
+  
+[[main]]
+  name = "Wiki"
+  url = "http://mpsc.umbc.edu/wiki/index.php/Main_Page"
+  weight = 11
+  
+[[main]]
+  name = "Conferences"
+  url = "/conferences/"
+  weight = 12
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
