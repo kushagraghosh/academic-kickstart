@@ -3,6 +3,9 @@
 widget = "people"  # Use the Featured widget
 headless = true  # This file represents a page section.
 
+# Order that this section will appear in.
+weight = 1
+
 # ... Put Your Section Options Here (title etc.) ...
 title = "People"
 subtitle = ""
