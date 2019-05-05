@@ -1,12 +1,10 @@
 +++
 # People widget.
-widget = "people"  # Use the Featured widget
+widget = "people"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
+active = false  # Activate this widget? true/false
+weight = 68  # Order that this section will appear.
 
-# Order that this section will appear in.
-weight = 1
-
-# ... Put Your Section Options Here (title etc.) ...
 title = "People"
 subtitle = ""
 
@@ -18,3 +16,4 @@ user_groups = ["Principal Investigators",
                "Administration",
                "Visitors",
                "Alumni"]
++++
